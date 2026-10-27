@@ -1,0 +1,4 @@
+# TinyLlama inference server (CPU or CUDA)
+torch>=2.1.0
+# transformers 5.x changed apply_chat_template's return type; 4.56+ needed for dtype= kwarg
+transformers>=4.56,<5
